@@ -9,7 +9,16 @@ Scripts to create AWS Elastic Map Reduce cluster with Jupyter installed
 
 ## Instructions
 
+### First time setup
 1. Modify variables in configure.sh
 2. Run configure.sh
-3. Run cluster_setup.sh
-4. Visit public_dns:8888 to start using pyspark through a Jupyter notebook
+3. Run first_time_setup.sh
+
+### Create cluster
+4. Run cluster_setup.sh
+5. Visit public_dns:8888 to start using pyspark through a Jupyter notebook
+
+## To do
+
+- Add Firehose step
+- Rewrite in python
